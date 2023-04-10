@@ -1,16 +1,15 @@
-# dotnet-yandex-cloud
 Example run ASP.NET Core Web API applications as Yandex Cloud Function.
 
-Установить nuget пакет Amazon.Lambda.Yandex.0.0.1.nupkg в локальный репозитории через nuget add ...
+Install nuget packet Amazon.Lambda.Yandex.0.0.1.nupkg to local repository: nuget add ...
 
-Публиковать через Publish :
-Публиковать через Publish в локальную папку с параметрами:
+Publish :
+To local folder Publish, parameters:
  - linux-x64
  - net6.0
- - Автономный
- - Обрезать
+ - Self-contained
+ - Trim unused code
 
- Удалить все System.*.dll и *.so кроме System.Diagnostics.*.dll System.IO.*.dll System.Text.*.dll
- Запаковать в .zip архив и загрузить в Yandex Cloud Function в net6
+ delete all files System.*.dll и *.so except System.Diagnostics.*.dll System.IO.*.dll System.Text.*.dll
+ Pack to .zip and load to Yandex Cloud Function to net6
 
- Точка входа: WebApplication.YandexFunction
+Entry point: WebApplication.YandexFunction
