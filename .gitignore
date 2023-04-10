@@ -38,6 +38,8 @@ bld/
 
 # Visual Studio 2017 auto generated files
 Generated\ Files/
+.config
+*.sln
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -195,6 +197,8 @@ PublishScripts/
 # NuGet v3's project.json files produces more ignorable files
 *.nuget.props
 *.nuget.targets
+
+!Amazon.Lambda.Yandex.0.0.1.nupkg
 
 # Microsoft Azure Build Output
 csx/
