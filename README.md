@@ -9,7 +9,7 @@ To local folder Publish, parameters:
  - Self-contained
  - Trim unused code
 
- delete all files System.*.dll è *.so except System.Diagnostics.*.dll System.IO.*.dll System.Text.*.dll
+ Delete all System.*.dll and *.so except System.Diagnostics.*.dll System.IO.*.dll System.Text.*.dll
  Pack to .zip and load to Yandex Cloud Function to net6
 
 Entry point: WebApplication.YandexFunction
