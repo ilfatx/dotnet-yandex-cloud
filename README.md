@@ -13,3 +13,5 @@ To local folder Publish, parameters:
  Pack to .zip and load to Yandex Cloud Function to net6
 
 Entry point: WebApplication.YandexFunction
+
+https://habr.com/ru/articles/729406/
